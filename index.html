@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Таск трекер</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="helpme.js" defer></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+   </head>
+<body>
+    <main>
+        <section class="panelcboky">
+            <h1>Таск трекер</h1>
+            <div class="listprojects">
+                <div class="projects"><img src="img/chelovek.svg" alt=""><p>Мой проект</p></div>
+                <div class="projects"><img src="img/Группы.svg" alt=""><p>Второй проект</p></div>
+            </div>
+
+        </section>
+
+        <section class="status">
+
+            <div class="column">
+                <div class="nazvanie">
+                    <div class="ccifroi"> <h3>Backlog</h3> <div class="schet" id="one"><p>5</p></div> </div>
+                        <img src="img/more_horiz.svg" alt="">
+                    </div>
+                    <input type="text" class="poick" id="poisk1" placeholder="Найти задачу">
+                <div class="Backlog">
+
+                <article class="zadacha"> 
+                    <div class="delete"><h4>Задача</h4><p class="del">X</p></div>
+                    <input type="text" list="list"  multiple placeholder="Статус">
+                        <datalist class="statuslist" id="list">
+                            <option value="Backlog"></option>
+                            <option value="В разработке"></option>
+                            <option value="На согласовании"></option>
+                            <option value="Выполнено"></option>
+                        </datalist>
+                        <div class="kartinki">
+                            <img src="img/Avatar.svg" alt="">
+                            <img src="img/Avatar2.svg" alt="">
+                            <div class="five">+5</div>
+                            <img src="img/Add Button.svg" alt="">
+                        </div>
+                </article>
+                </div>
+                <div class="dobavit1"><img src="img/Vector.svg" alt=""></div>
+            </div>
+           
+
+            <div class="column">
+                
+                <div class="nazvanie">
+                    <div class="ccifroi"> <h3>В разработке</h3> <div class="schet" id="two"><p>3</p></div> </div>
+                        <img src="img/more_horiz.svg" alt="">
+                    </div>
+                    <input type="text" class="poick" id="poisk2" placeholder="Найти задачу">
+                    <div class="vrazrab">
+                    
+                </div>
+                <div class="dobavit2"><img src="img/Vector.svg" alt=""></div>
+                
+            </div>
+            <div class="column">
+                <div class="nazvanie">
+                    <div class="ccifroi"> <h3>На согласовании</h3> <div class="schet" id="three"><p>2</p></div> </div>
+                        <img src="img/more_horiz.svg" alt="">
+                    </div>
+                    <input type="text" class="poick" id="poisk3" placeholder="Найти задачу">
+                    <div class="nasogl">
+                    
+                    
+                
+                    </div>
+                    <div class="dobavit3"><img src="img/Vector.svg" alt=""></div>
+            </div>
+            <div class="column">
+                
+                <div class="nazvanie">
+                    <div class="ccifroi"> <h3>Выполнено</h3> <div class="schet" id="four"><p>5</p></div> </div>
+                        <img src="img/more_horiz.svg" alt="">
+                </div>
+                <input type="text" class="poick" id="poisk4" placeholder="Найти задачу">
+
+                    <div class="cdelano">
+
+                    
+                    </div>
+                    <div class="dobavit4" id="first"><img src="img/Vector.svg" alt=""></div>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+</body>
+</html>
